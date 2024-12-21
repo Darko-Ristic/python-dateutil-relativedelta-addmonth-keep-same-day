@@ -48,7 +48,7 @@ the left column is loop of `date + relativedelta(months=1)`; while the right col
 ```
 > and 
 ```diff
-- Do not use datetime.datetime.minutes`
+- Do not use datetime.datetime.minutes
 ```
 ***
 *** 
