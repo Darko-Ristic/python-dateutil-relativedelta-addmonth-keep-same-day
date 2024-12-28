@@ -14,7 +14,7 @@ This repo uses [https://github.com/ehiggs/python-dateutil](https://github.com/da
 #
 This repo offers add month fix for https://stackoverflow.com/questions/77872779/unexpected-behavior-from-pythons-relativedelta-and-datetime-libraries
 
-the left column is loop of `date + relativedelta(months=1)`; while the right column is loop of `datePlus1Month(date)`
+the left column is loop of `datePlus1Month(date)`; while the right column is loop of `date + relativedelta(months=1)` (i.e. one that forgets to keep same day of the month)
 ```
         For start date 31.12.2019
 2019-12-31 00:00:00      2019-12-31 00:00:00
